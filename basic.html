@@ -1,0 +1,140 @@
+<!-- Complete this worksheet in HTML and CSS. Instructions are as comments; you may use reference_sheet.html and the internet to jog your memory on HTML tags and CSS. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <style>
+
+            p {
+                color: #A9A9A9;
+                font-size: 16px;
+                font-family: 'Open Sans', serif;
+/*                width: 50%;*/
+            }
+            #quote {
+                color: magenta;
+                font-style: italic;
+                border: solid lightskyblue 2px;
+            }
+
+            #bargraph {
+                border: 1px solid gray;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                width: 25%;
+            }
+            .bar_label {
+                color: red;
+            }
+            #longest {
+                width: 300px;
+                height: 10px;
+                background: gray;
+                border: 1px solid red;
+            }
+            #longer {
+                
+            }
+            #long {
+                
+            }
+
+        </style>
+    </head>
+    
+    <body>
+
+        <h1>A little bit about me!</h1>
+        
+        <h2>My intro</h2>
+        <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
+        <!-- Tags to use: <p>, <strong>, <i> -->
+            <p>I am from <strong>Baltimore</strong>, and I like <i>playing sports</i>.</p>
+
+        <h2>My handles</h2>
+        <!-- Include: at least two handles for your social media accounts -->
+        <!-- Tags to use: <p>, <a> -->
+            <p>This is <a href="https://www.instagram.com/" target="_blank">my Instagram</a> and <a href="https://twitter.com/?lang=en" target="_blank"> my Twitter</a>.</p>
+
+    
+        <h2> ~ Challenge: Why is my text maroon? ~</h2>
+        <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) When you're done, change the text in the <p> tag below to "My text is gray." -->
+        <p>My text is gray.</p>
+
+
+        <h2>My favorite meme</h2>
+        <!-- Include: "large_wink.png" as an image -->
+        <!-- Tags to use: <img> -->
+        <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+        <img src="jameis.png" alt="an image of Jameis Winston eating his fingers in the shape of a W" height="300px" width="400px">
+    
+        <h2>Why I'm a great student</h2>
+        <!-- Include: Use 'reference_sheet.html' to figure out how to add an unordered list here -->
+        <!-- Tags to use: <ul>, <li>, <strong> -->
+        <ul>
+                <li><strong>I stay organized</strong></li>
+                <li>I check my email routinely</li>
+                <li>I have great attendance</li>
+                <li>I work well with others</li>
+            </ul>
+    
+        <h2>Top 3 most famous people from my hometown</h2>
+        <!-- Include: an ordered list -->
+        <!-- Tags to use: <ol>, <li>, <a> -->
+            <ol>
+                <li><a href="https://en.wikipedia.org/wiki/Babe_Ruth" target="_blank">Babe Ruth</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Michael_Phelps" target="_blank">Michael Phelps</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Carmelo_Anthony" target="_blank">Carmelo Anthony</a></li>
+            </ol>
+
+
+        <h2> ~ Challenge: Read my poetry ~</h2>
+        <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
+        <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
+        <p>College is like a roller coaster<br />
+        There's mountains to climb<br />
+        and times you will fall<br />
+        with smiles and laughs<br />
+        and things to overcome<br />
+        you only have so much control<br />
+        so enjoy the ride </p>
+
+        <h2>This is one of my favorite quotes</h2>
+        <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
+        <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+            <p id="quote">“People will forget what you say, and people will forget what you do, but no one will ever forget the way you make them feel.” <h3>― Jim Gray, Talking to GOATs</h3></p>
+
+        <h2>These are more of my favorite books</h2>
+        <!-- Include: an unordered list of at least three books, list items should have a border -->
+        <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
+        <ul>
+                <li>The Couple Next Door</li>
+                <li>An Unwanted Guest</li>
+                <li>Someone We Know</li>
+            </ul>
+
+        <h2>Here's how I normally spend my weekend</h2>
+        <!-- Include: a complete Datawrapper chart (you can make up data) showing what you normally spend time on over the weekend; must include all requirements of a complete chart (hed, subhed, intentional colors, byline, etc.) -->
+        <!-- Tags to use: <iframe> -->
+            <iframe title="How I Spend My Weekend" aria-label="Column Chart" id="datawrapper-chart-Is5MK" src="https://datawrapper.dwcdn.net/Is5MK/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="451" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+
+        <h3>~ Challenge: A very simple bar graph ~</h3>
+        <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. (Use the CSS in #longest as a reference.) You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
+
+        <div id="bargraph">
+            <h4>Length of bars</h4>
+            <p class="bar_label">Longest</p>
+            <div id="longest"></div>
+            <p class="bar_label">Longer</p>
+            <div id="longer"></div>
+            <p class="bar_label">Long</p>
+            <div id="long"></div>
+        </div>
+     
+    </body>
+</html>
