@@ -1,0 +1,168 @@
+/*This is the CSS page for our final template.*/
+
+p {
+	font-family: 'Poppins', serif;
+	font-size: 20px;
+}
+.footer p { /* This is how you add styles for only the p text within the footer. */
+	background-color: #cccccc;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.header {
+	height: auto;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Poppins', serif;
+	background-color: yellowgreen;
+	font-color: white;
+}
+h4 {
+	font-style: italic;
+	font-size: 40px;
+	font-family: 'Poppins', serif;
+}
+img {
+	float: right;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+h3 {
+	font-size: 30px;
+}
+
+/*Don't worry about this section yet*/
+@media only screen and (max-width: 767px)
+
+{
+.footer p { /* This is how you add styles for only the p text within the footer. */
+	background-color: lightsalmon;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+{
+ .list {
+ 	border: 2px solid darkgray;
+ 	padding-left: 10px;
+ 	float: none;
+ 	min-width: 90%;
+ 	margin-left: 10px;
+ 	margin-bottom: 30px;
+ 	margin-top: 30px;
+ }
+ iframe {
+ 	min-width: 90%;
+ 	margin-right: 10px;
+ }
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
